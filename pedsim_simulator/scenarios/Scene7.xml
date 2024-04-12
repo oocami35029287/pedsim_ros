@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <!--Obstacles-->
+  <obstacle x1="0.6736298" y1="1.497189" x2="1.27363" y2="0.6471893" />
+  <obstacle x1="1.27363" y1="0.5471894" x2="7.97363" y2="0.6471893" />
+  <obstacle x1="2.020539" y1="2.052341" x2="2.798729" y2="2.030724" />
+  <obstacle x1="4.247026" y1="2.11719" x2="5.068449" y2="2.073957" />
+  <obstacle x1="4.477236" y1="9.888011" x2="6.249779" y2="9.888011" />
+  <obstacle x1="3.547732" y1="7.661523" x2="3.547732" y2="7.661523" />
+  <obstacle x1="4.226175" y1="9.833316" x2="4.342207" y2="2.059153" />
+  <obstacle x1="2.767717" y1="8.833841" x2="2.907367" y2="1.944407" />
+  <obstacle x1="2.814267" y1="1.944407" x2="2.116013" y2="1.990957" />
+  <obstacle x1="2.116013" y1="1.990957" x2="1.976363" y2="8.973492" />
+  <obstacle x1="2.069463" y1="8.926942" x2="2.860817" y2="8.833841" />
+  <!--Pedestrians-->
+  <!--Pedestrians number9-->
+  <waypoint id="waypoint9_0" x="3.22" y="10.26" r="1" />
+  <waypoint id="waypoint9_1" x="3.47" y="1.31" r="1" />
+  <waypoint id="waypoint9_2" x="1.42" y="1.31" r="1" />
+  <waypoint id="waypoint9_3" x="1.27" y="10.51" r="1" />
+  <agent x="3.37" y="10.91" n="1" dx="0.27" dy="0.27" type="0">
+    <addwaypoint id="waypoint9_0" />
+    <addwaypoint id="waypoint9_1" />
+    <addwaypoint id="waypoint9_2" />
+    <addwaypoint id="waypoint9_3" />
+  </agent>
+  <!--Robot-->
+  <agent x="3.78" y="1.91" r="1.570796" n="1" dx="0" dy="0" type="2" />
+</scenario>

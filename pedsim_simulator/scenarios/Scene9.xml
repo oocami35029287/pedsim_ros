@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+  <!--Obstacles-->
+  <!--Pedestrians-->
+  <!--Pedestrians number10-->
+  <agent x="10.88" y="10.60" n="1" dx="0.27" dy="0.27" type="0" />
+  <!--Robot-->
+  <agent x="2.48" y="6.63" r="0.000000" n="1" dx="0" dy="0" type="2" />
+</scenario>
